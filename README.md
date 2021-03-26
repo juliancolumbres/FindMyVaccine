@@ -70,9 +70,6 @@ Find my vaccine is an app that allows users to browse for Covid-19 vaccination l
 ## Wireframes
 <img src="https://i.imgur.com/xPaUbdB.jpg" width=600>
 
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
 
 ## Schema 
 [This section will be completed in Unit 9]
