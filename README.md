@@ -63,10 +63,32 @@ Figma: https://www.figma.com/file/atYJ0tVcHPd97EGZril6MF/find-my-vaccine-wirefra
 
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+
+#### Location
+
+| Property      | Type     | Description |
+| ------------- | -------- | ------------|
+| name  | String  | Name of the location |
+| address | String | Address of vaccine site |
+| vaccineType| String  | Types of vaccine offered |
+| vaccineStatus | boolean | Whether vaccine is available |
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+#### We are only using Existing API to get data. Please see the next section.
+
+#### OPTIONAL: List endpoints if using existing API 
+
+- Vaccine API
+
+Base URL - https://www.vaccinespotter.org/api/v0/states/CA.json
+
+
+| HTTP Verb      | Endpoint     | Description |
+| ------------- | -------- | ------------|
+| GET |  /FeatureCollection/1/Features | gets all vaccination sites (known as features) and their information |
+| GET | /Featurecollection/1/Features?appointments_available=true  | gets all vaccination sites where appointments are available |
+
+
