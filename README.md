@@ -59,7 +59,7 @@ Find my vaccine is an app that allows users to browse for Covid-19 vaccination l
 Figma: https://www.figma.com/file/atYJ0tVcHPd97EGZril6MF/find-my-vaccine-wireframe?node-id=0%3A1
 
 
-<img src="https://imgur.com/a/4wKzyBy" width=600>
+<img src="https://i.imgur.com/GY9PtKZ.jpg" width=600>
 
 
 ## Schema 
