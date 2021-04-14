@@ -25,8 +25,6 @@ Find my vaccine is an app that allows users to browse for Covid-19 vaccination l
 
 **Required Must-have Stories**
 
-* Users can login to look for the search history
-* Profile page for each user
 * Displaying a list of locations
 * Providing an url to location's website
 
@@ -36,21 +34,12 @@ Find my vaccine is an app that allows users to browse for Covid-19 vaccination l
 * Provide GPS for user to navigate to vaccine locations
 
 ### 2. Screen Archetypes
-
-* Login Screen
-    * User are not required to create an account, but they can have one to keep tracks of what they have been searching for.
-
-* Register Screen
-    * Users have an option to create their own account. 
    
 * Location Details Screen
     * Showing location information.
      
 * Map Screen
     * Displaying available locations on a map.    
-    
-* Profile Screen
-    * Showing user information
 
 
 ### 3. Navigation
@@ -62,9 +51,7 @@ Find my vaccine is an app that allows users to browse for Covid-19 vaccination l
 
 **Flow Navigation** (Screen to Screen)
 
-* Login -> Location Details Screenframe
-* Register -> Location Details Screen
-* Profile -> Profile Screen
+* Location -> Location Details Screenf
 * Map -> Map screen
 
 ## Wireframes
@@ -72,7 +59,7 @@ Find my vaccine is an app that allows users to browse for Covid-19 vaccination l
 Figma: https://www.figma.com/file/atYJ0tVcHPd97EGZril6MF/find-my-vaccine-wireframe?node-id=0%3A1
 
 
-<img src="https://i.imgur.com/xPaUbdB.jpg" width=600>
+<img src="https://imgur.com/a/4wKzyBy" width=600>
 
 
 ## Schema 
