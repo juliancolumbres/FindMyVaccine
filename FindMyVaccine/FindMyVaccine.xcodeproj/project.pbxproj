@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C914B4B262A396000042414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C914B4A262A396000042414 /* AppDelegate.swift */; };
+		6C914B4D262A396000042414 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C914B4C262A396000042414 /* SceneDelegate.swift */; };
+		6C914B4F262A396000042414 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C914B4E262A396000042414 /* ViewController.swift */; };
+		6C914B52262A396000042414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C914B50262A396000042414 /* Main.storyboard */; };
+		6C914B54262A396200042414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C914B53262A396200042414 /* Assets.xcassets */; };
+		6C914B57262A396200042414 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C914B55262A396200042414 /* LaunchScreen.storyboard */; };
+		6C914B62262A396200042414 /* FindMyVaccineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C914B61262A396200042414 /* FindMyVaccineTests.swift */; };
+		6C914B6D262A396200042414 /* FindMyVaccineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C914B6C262A396200042414 /* FindMyVaccineUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C914B5E262A396200042414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C914B3F262A396000042414 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C914B46262A396000042414;
+			remoteInfo = FindMyVaccine;
+		};
+		6C914B69262A396200042414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C914B3F262A396000042414 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C914B46262A396000042414;
+			remoteInfo = FindMyVaccine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C914B47262A396000042414 /* FindMyVaccine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyVaccine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C914B4A262A396000042414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C914B4C262A396000042414 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6C914B4E262A396000042414 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C914B51262A396000042414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C914B53262A396200042414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C914B56262A396200042414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C914B58262A396200042414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C914B5D262A396200042414 /* FindMyVaccineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyVaccineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C914B61262A396200042414 /* FindMyVaccineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyVaccineTests.swift; sourceTree = "<group>"; };
+		6C914B63262A396200042414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C914B68262A396200042414 /* FindMyVaccineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyVaccineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C914B6C262A396200042414 /* FindMyVaccineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyVaccineUITests.swift; sourceTree = "<group>"; };
+		6C914B6E262A396200042414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C914B44262A396000042414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C914B5A262A396200042414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C914B65262A396200042414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C914B3E262A396000042414 = {
+			isa = PBXGroup;
+			children = (
+				6C914B49262A396000042414 /* FindMyVaccine */,
+				6C914B60262A396200042414 /* FindMyVaccineTests */,
+				6C914B6B262A396200042414 /* FindMyVaccineUITests */,
+				6C914B48262A396000042414 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C914B48262A396000042414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C914B47262A396000042414 /* FindMyVaccine.app */,
+				6C914B5D262A396200042414 /* FindMyVaccineTests.xctest */,
+				6C914B68262A396200042414 /* FindMyVaccineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C914B49262A396000042414 /* FindMyVaccine */ = {
+			isa = PBXGroup;
+			children = (
+				6C914B4A262A396000042414 /* AppDelegate.swift */,
+				6C914B4C262A396000042414 /* SceneDelegate.swift */,
+				6C914B4E262A396000042414 /* ViewController.swift */,
+				6C914B50262A396000042414 /* Main.storyboard */,
+				6C914B53262A396200042414 /* Assets.xcassets */,
+				6C914B55262A396200042414 /* LaunchScreen.storyboard */,
+				6C914B58262A396200042414 /* Info.plist */,
+			);
+			path = FindMyVaccine;
+			sourceTree = "<group>";
+		};
+		6C914B60262A396200042414 /* FindMyVaccineTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C914B61262A396200042414 /* FindMyVaccineTests.swift */,
+				6C914B63262A396200042414 /* Info.plist */,
+			);
+			path = FindMyVaccineTests;
+			sourceTree = "<group>";
+		};
+		6C914B6B262A396200042414 /* FindMyVaccineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C914B6C262A396200042414 /* FindMyVaccineUITests.swift */,
+				6C914B6E262A396200042414 /* Info.plist */,
+			);
+			path = FindMyVaccineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C914B46262A396000042414 /* FindMyVaccine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C914B71262A396200042414 /* Build configuration list for PBXNativeTarget "FindMyVaccine" */;
+			buildPhases = (
+				6C914B43262A396000042414 /* Sources */,
+				6C914B44262A396000042414 /* Frameworks */,
+				6C914B45262A396000042414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMyVaccine;
+			productName = FindMyVaccine;
+			productReference = 6C914B47262A396000042414 /* FindMyVaccine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C914B5C262A396200042414 /* FindMyVaccineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C914B74262A396200042414 /* Build configuration list for PBXNativeTarget "FindMyVaccineTests" */;
+			buildPhases = (
+				6C914B59262A396200042414 /* Sources */,
+				6C914B5A262A396200042414 /* Frameworks */,
+				6C914B5B262A396200042414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C914B5F262A396200042414 /* PBXTargetDependency */,
+			);
+			name = FindMyVaccineTests;
+			productName = FindMyVaccineTests;
+			productReference = 6C914B5D262A396200042414 /* FindMyVaccineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C914B67262A396200042414 /* FindMyVaccineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C914B77262A396200042414 /* Build configuration list for PBXNativeTarget "FindMyVaccineUITests" */;
+			buildPhases = (
+				6C914B64262A396200042414 /* Sources */,
+				6C914B65262A396200042414 /* Frameworks */,
+				6C914B66262A396200042414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C914B6A262A396200042414 /* PBXTargetDependency */,
+			);
+			name = FindMyVaccineUITests;
+			productName = FindMyVaccineUITests;
+			productReference = 6C914B68262A396200042414 /* FindMyVaccineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C914B3F262A396000042414 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6C914B46262A396000042414 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					6C914B5C262A396200042414 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6C914B46262A396000042414;
+					};
+					6C914B67262A396200042414 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6C914B46262A396000042414;
+					};
+				};
+			};
+			buildConfigurationList = 6C914B42262A396000042414 /* Build configuration list for PBXProject "FindMyVaccine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C914B3E262A396000042414;
+			productRefGroup = 6C914B48262A396000042414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C914B46262A396000042414 /* FindMyVaccine */,
+				6C914B5C262A396200042414 /* FindMyVaccineTests */,
+				6C914B67262A396200042414 /* FindMyVaccineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C914B45262A396000042414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C914B57262A396200042414 /* LaunchScreen.storyboard in Resources */,
+				6C914B54262A396200042414 /* Assets.xcassets in Resources */,
+				6C914B52262A396000042414 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C914B5B262A396200042414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C914B66262A396200042414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C914B43262A396000042414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C914B4F262A396000042414 /* ViewController.swift in Sources */,
+				6C914B4B262A396000042414 /* AppDelegate.swift in Sources */,
+				6C914B4D262A396000042414 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C914B59262A396200042414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C914B62262A396200042414 /* FindMyVaccineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C914B64262A396200042414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C914B6D262A396200042414 /* FindMyVaccineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C914B5F262A396200042414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C914B46262A396000042414 /* FindMyVaccine */;
+			targetProxy = 6C914B5E262A396200042414 /* PBXContainerItemProxy */;
+		};
+		6C914B6A262A396200042414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C914B46262A396000042414 /* FindMyVaccine */;
+			targetProxy = 6C914B69262A396200042414 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C914B50262A396000042414 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C914B51262A396000042414 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C914B55262A396200042414 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C914B56262A396200042414 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C914B6F262A396200042414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C914B70262A396200042414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C914B72262A396200042414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6522S3ANC7;
+				INFOPLIST_FILE = FindMyVaccine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.FindMyVaccine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C914B73262A396200042414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6522S3ANC7;
+				INFOPLIST_FILE = FindMyVaccine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.FindMyVaccine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C914B75262A396200042414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6522S3ANC7;
+				INFOPLIST_FILE = FindMyVaccineTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.FindMyVaccineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyVaccine.app/FindMyVaccine";
+			};
+			name = Debug;
+		};
+		6C914B76262A396200042414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6522S3ANC7;
+				INFOPLIST_FILE = FindMyVaccineTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.FindMyVaccineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyVaccine.app/FindMyVaccine";
+			};
+			name = Release;
+		};
+		6C914B78262A396200042414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6522S3ANC7;
+				INFOPLIST_FILE = FindMyVaccineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.FindMyVaccineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindMyVaccine;
+			};
+			name = Debug;
+		};
+		6C914B79262A396200042414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6522S3ANC7;
+				INFOPLIST_FILE = FindMyVaccineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.FindMyVaccineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindMyVaccine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C914B42262A396000042414 /* Build configuration list for PBXProject "FindMyVaccine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C914B6F262A396200042414 /* Debug */,
+				6C914B70262A396200042414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C914B71262A396200042414 /* Build configuration list for PBXNativeTarget "FindMyVaccine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C914B72262A396200042414 /* Debug */,
+				6C914B73262A396200042414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C914B74262A396200042414 /* Build configuration list for PBXNativeTarget "FindMyVaccineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C914B75262A396200042414 /* Debug */,
+				6C914B76262A396200042414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C914B77262A396200042414 /* Build configuration list for PBXNativeTarget "FindMyVaccineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C914B78262A396200042414 /* Debug */,
+				6C914B79262A396200042414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C914B3F262A396000042414 /* Project object */;
+}
