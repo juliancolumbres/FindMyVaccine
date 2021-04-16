@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  FindMyVaccine
 //
-//  Created by Tran Duc Quang on 4/16/21.
+//  Created by DJMH21 on 4/16/21.
 //
 
 import UIKit
