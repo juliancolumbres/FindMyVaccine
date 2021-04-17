@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E9F7661262B8E0000AF42C1 /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9F7660262B8E0000AF42C1 /* LocationTableViewCell.swift */; };
 		6C914B4B262A396000042414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C914B4A262A396000042414 /* AppDelegate.swift */; };
 		6C914B4D262A396000042414 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C914B4C262A396000042414 /* SceneDelegate.swift */; };
 		6C914B52262A396000042414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C914B50262A396000042414 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E9F7660262B8E0000AF42C1 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
 		6C914B47262A396000042414 /* FindMyVaccine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyVaccine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C914B4A262A396000042414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C914B4C262A396000042414 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				6C914B55262A396200042414 /* LaunchScreen.storyboard */,
 				6C914B58262A396200042414 /* Info.plist */,
 				6C914B7D262A3F3900042414 /* VaccineViewController.swift */,
+				0E9F7660262B8E0000AF42C1 /* LocationTableViewCell.swift */,
 			);
 			path = FindMyVaccine;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				6C914B7E262A3F3900042414 /* VaccineViewController.swift in Sources */,
 				6C914B4B262A396000042414 /* AppDelegate.swift in Sources */,
+				0E9F7661262B8E0000AF42C1 /* LocationTableViewCell.swift in Sources */,
 				6C914B4D262A396000042414 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
