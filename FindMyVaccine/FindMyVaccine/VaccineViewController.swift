@@ -7,11 +7,14 @@
 
 import UIKit
 
-class VaccineViewController: UIViewController {
+class VaccineViewController: UIViewController, UITableViewDataSource, UITabBarDelegate, UITableViewDelegate {
+    @IBOutlet weak var tableView: UITableView!
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.tableView.dataSource = self
+        self.tableView.delegate = self
         // Do any additional setup after loading the view.
     }
     
@@ -25,5 +28,15 @@ class VaccineViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "LocationTableViewCell") as! LocationTableViewCell
+        
+        cell.providerName?.text = "CVS"
+        cell.appoinment?.text = "available"
+        return cell
+    }
 }
