@@ -25,5 +25,19 @@ class VaccineViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+<<<<<<< Updated upstream
 
+=======
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "LocationTableViewCell") as! LocationTableViewCell
+        
+        cell.providerName?.text = "Provider Name"
+        cell.appoinment?.text = "Appointment status"
+        return cell
+    }
+>>>>>>> Stashed changes
 }
