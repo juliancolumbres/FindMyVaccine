@@ -5,6 +5,8 @@
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 2. [Schema](#Schema)
+3. [Milestone 1](#Milestone 1)
+
 
 ## Overview
 ### Description
@@ -92,3 +94,4 @@ Base URL - https://www.vaccinespotter.org/api/v0/states/CA.json
 | GET | /Featurecollection/1/Features?appointments_available=true  | gets all vaccination sites where appointments are available |
 
 
+## Milestone 1
