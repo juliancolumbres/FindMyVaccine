@@ -96,16 +96,22 @@ Base URL - https://www.vaccinespotter.org/api/v0/states/CA.json
 
 ## Milestone 1
 
-#### Adding App Icon
+#### Adding App Icon 
 
-
-#### Adding App Icon at Launch Screen
+<img src="https://i.imgur.com/GSrvGpo.png" width=600> 
 
 
 #### Creating Location Detail Screen
 
+- The location detail screen consists of three main information: provider name, appointment status, and address.
+
+<img src='http://g.recordit.co/aj7eTB4R64.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 #### Creating Map View
 
+- From location detail screen, user can see the location on a map in map view screen.
+
+<img src='http://g.recordit.co/3eST1BJzlB.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
