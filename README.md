@@ -5,7 +5,7 @@
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 2. [Schema](#Schema)
-3. [Milestone1](#Milestone1)
+3. [Milestone 1](#Milestone-1)
 
 
 ## Overview
@@ -95,3 +95,17 @@ Base URL - https://www.vaccinespotter.org/api/v0/states/CA.json
 
 
 ## Milestone 1
+
+#### Adding App Icon
+
+
+#### Adding App Icon at Launch Screen
+
+
+#### Creating Location Detail Screen
+
+
+#### Creating Map View
+
+
+
