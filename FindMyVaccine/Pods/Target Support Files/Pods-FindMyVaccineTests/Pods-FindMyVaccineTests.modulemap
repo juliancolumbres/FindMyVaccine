@@ -1,0 +1,6 @@
+framework module Pods_FindMyVaccineTests {
+  umbrella header "Pods-FindMyVaccineTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

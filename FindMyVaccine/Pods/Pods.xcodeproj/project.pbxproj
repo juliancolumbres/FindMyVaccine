@@ -1,0 +1,964 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E645CABD44079D1DE76DE73F238DB8C /* Pods-FindMyVaccine-FindMyVaccineUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7518AC1189C8E80F4E52649F4035DC4 /* Pods-FindMyVaccine-FindMyVaccineUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		145A8BA59E7B9B12B3D935ACCBF1B389 /* Pods-FindMyVaccineTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C32DC2E8D3B897B20308FD901A5B9A4 /* Pods-FindMyVaccineTests-dummy.m */; };
+		1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A02287654566C4E833D550868E61137D /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 593C23BE6F81900B7E5D14655827CBEC /* SwiftyJSON-dummy.m */; };
+		5E55A3B349F962A92A6699720A63510E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D7ABD2F10BB23F044CCCAEFA96E16 /* SwiftyJSON.swift */; };
+		84EF47FAEB0C3F755E2917C63808809B /* Pods-FindMyVaccineTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AB496342C8D733A693F73BFE4D07D8 /* Pods-FindMyVaccineTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A34C2983E2E3DE525768EF5077326B0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AB787E84181EC6CD518EB7C63E2F2216 /* Pods-FindMyVaccine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81700278345CD60801D96587FD2A00F9 /* Pods-FindMyVaccine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1782AAA802A6EC9F80CE182AC7217BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C297AC9431379391C114794AFD4F9778 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C339F771A60548A4DFEC45361A839366 /* Pods-FindMyVaccine-FindMyVaccineUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27027CD30A93B6D2AC0EBD78D63D96F9 /* Pods-FindMyVaccine-FindMyVaccineUITests-dummy.m */; };
+		D5AC9CCB98D4A771ADBE1C793BEAB1F0 /* Pods-FindMyVaccine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5AA2CA21C1C0B66D72A3158D9C10B /* Pods-FindMyVaccine-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FBFD40D67A44B795478E76BE87927ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
+		86F8DE6BF9C034ADA8EDC9591789BD7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
+		EE8663C09895B023A0E49A56492067FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 898D0402284408F8E08DD076D8F9D48D;
+			remoteInfo = "Pods-FindMyVaccine";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04AAD23D6FF3081F19103C9E3770EBAB /* Pods-FindMyVaccineTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FindMyVaccineTests-Info.plist"; sourceTree = "<group>"; };
+		0650CDE186D028173A33E51CE3EB15D4 /* Pods-FindMyVaccine-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FindMyVaccine-acknowledgements.plist"; sourceTree = "<group>"; };
+		0717D827686C2C78519BEB213B3F7337 /* Pods-FindMyVaccine-FindMyVaccineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindMyVaccine-FindMyVaccineUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		16044D8C80C340615F991933AB6B685C /* Pods-FindMyVaccine-FindMyVaccineUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FindMyVaccine-FindMyVaccineUITests.modulemap"; sourceTree = "<group>"; };
+		1DC797D0D3FB88A6F5F87E657632E88F /* Pods-FindMyVaccineTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FindMyVaccineTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		27027CD30A93B6D2AC0EBD78D63D96F9 /* Pods-FindMyVaccine-FindMyVaccineUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FindMyVaccine-FindMyVaccineUITests-dummy.m"; sourceTree = "<group>"; };
+		2A5328BAE183791740F621076D14644E /* Pods-FindMyVaccineTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FindMyVaccineTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C03F85DD0DB4C2E41593BC1756A0317 /* Pods-FindMyVaccine-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FindMyVaccine-frameworks.sh"; sourceTree = "<group>"; };
+		36B0DDC4B444DC8FD5424D99FE11A750 /* Pods-FindMyVaccine-FindMyVaccineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindMyVaccine-FindMyVaccineUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3764F04EEA4775A8AAF7D0279C727206 /* Pods-FindMyVaccine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindMyVaccine.debug.xcconfig"; sourceTree = "<group>"; };
+		3B48E6499A90E7E0EA6972C95C0DB22B /* Pods-FindMyVaccine-FindMyVaccineUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FindMyVaccine-FindMyVaccineUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		43CDF72A52206F20D11E09F840FEF053 /* Pods_FindMyVaccineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FindMyVaccineTests.framework; path = "Pods-FindMyVaccineTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8A97076B42375B9380A24D9D5D6C19 /* Pods-FindMyVaccineTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FindMyVaccineTests.modulemap"; sourceTree = "<group>"; };
+		50297E44B94F8B445D07858A95C6334A /* Pods-FindMyVaccine-FindMyVaccineUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FindMyVaccine-FindMyVaccineUITests-frameworks.sh"; sourceTree = "<group>"; };
+		53C1A7E15161AE3A0E3A5090E19F84AE /* SwiftyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.release.xcconfig; sourceTree = "<group>"; };
+		593C23BE6F81900B7E5D14655827CBEC /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		60A5446E3184AC9044FD67AD5C6955CF /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
+		621D1B8C586BAD3EE67F6FAE67774EE4 /* Pods-FindMyVaccine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FindMyVaccine.modulemap"; sourceTree = "<group>"; };
+		6A354C76B80E89FBF808D97B0B17C43C /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		6ED785C3ABEAD0CB3912D13D20831922 /* Pods-FindMyVaccine-FindMyVaccineUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FindMyVaccine-FindMyVaccineUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		81700278345CD60801D96587FD2A00F9 /* Pods-FindMyVaccine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FindMyVaccine-umbrella.h"; sourceTree = "<group>"; };
+		874D7ABD2F10BB23F044CCCAEFA96E16 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
+		8B242187A0C0EA2C5E1C2D40E6546E76 /* Pods-FindMyVaccineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindMyVaccineTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C32DC2E8D3B897B20308FD901A5B9A4 /* Pods-FindMyVaccineTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FindMyVaccineTests-dummy.m"; sourceTree = "<group>"; };
+		8DAA1B020B436F3E7AC6FFC865849923 /* Pods_FindMyVaccine_FindMyVaccineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FindMyVaccine_FindMyVaccineUITests.framework; path = "Pods-FindMyVaccine-FindMyVaccineUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9149017D75802B927748F9AAA1257C07 /* Pods-FindMyVaccine-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FindMyVaccine-Info.plist"; sourceTree = "<group>"; };
+		9997876F0961D82BF63BD212EBA885E6 /* Pods-FindMyVaccine-FindMyVaccineUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FindMyVaccine-FindMyVaccineUITests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A02287654566C4E833D550868E61137D /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		B6ECB4EC908A2F5B7FB001D4C53AD5A3 /* Pods-FindMyVaccineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindMyVaccineTests.release.xcconfig"; sourceTree = "<group>"; };
+		CCB8365BD5C46CCF9CCDCBA171350F87 /* Pods-FindMyVaccine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindMyVaccine.release.xcconfig"; sourceTree = "<group>"; };
+		CFCE470EB02BA9B5934DB1EB96759D3C /* Pods-FindMyVaccine-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FindMyVaccine-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0AB496342C8D733A693F73BFE4D07D8 /* Pods-FindMyVaccineTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FindMyVaccineTests-umbrella.h"; sourceTree = "<group>"; };
+		D7518AC1189C8E80F4E52649F4035DC4 /* Pods-FindMyVaccine-FindMyVaccineUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FindMyVaccine-FindMyVaccineUITests-umbrella.h"; sourceTree = "<group>"; };
+		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A0FD389D173F56FBDB8A357093095A /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		E582FFC2967E90C90960CEAF3C8CFD6E /* Pods_FindMyVaccine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FindMyVaccine.framework; path = "Pods-FindMyVaccine.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE5AA2CA21C1C0B66D72A3158D9C10B /* Pods-FindMyVaccine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FindMyVaccine-dummy.m"; sourceTree = "<group>"; };
+		F8D55E3BEC2588689D54AFF1AE0AC1DF /* SwiftyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		220990A1F0AEE0DDD1B5CBCF57D187B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34C2983E2E3DE525768EF5077326B0D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9C5A8DAF4334B670E91B2EC08DBE2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C297AC9431379391C114794AFD4F9778 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D4C0FB7A552B4C3F55AFE0CD2AF1ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E55A3B349F962A92A6699720A63510E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74CECB8B7AEDB698E83D92BD15AD773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1782AAA802A6EC9F80CE182AC7217BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C2F1959AA24E9A8FAF55ADD2018D247 /* Pods-FindMyVaccine */ = {
+			isa = PBXGroup;
+			children = (
+				621D1B8C586BAD3EE67F6FAE67774EE4 /* Pods-FindMyVaccine.modulemap */,
+				CFCE470EB02BA9B5934DB1EB96759D3C /* Pods-FindMyVaccine-acknowledgements.markdown */,
+				0650CDE186D028173A33E51CE3EB15D4 /* Pods-FindMyVaccine-acknowledgements.plist */,
+				EEE5AA2CA21C1C0B66D72A3158D9C10B /* Pods-FindMyVaccine-dummy.m */,
+				2C03F85DD0DB4C2E41593BC1756A0317 /* Pods-FindMyVaccine-frameworks.sh */,
+				9149017D75802B927748F9AAA1257C07 /* Pods-FindMyVaccine-Info.plist */,
+				81700278345CD60801D96587FD2A00F9 /* Pods-FindMyVaccine-umbrella.h */,
+				3764F04EEA4775A8AAF7D0279C727206 /* Pods-FindMyVaccine.debug.xcconfig */,
+				CCB8365BD5C46CCF9CCDCBA171350F87 /* Pods-FindMyVaccine.release.xcconfig */,
+			);
+			name = "Pods-FindMyVaccine";
+			path = "Target Support Files/Pods-FindMyVaccine";
+			sourceTree = "<group>";
+		};
+		2C6A71D462ED46C2A7F74D962134DC74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				519BE3CB838B11312A08D7AC7819F70F /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		519BE3CB838B11312A08D7AC7819F70F /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				874D7ABD2F10BB23F044CCCAEFA96E16 /* SwiftyJSON.swift */,
+				E7117206C2C7669CF7C06E59DE55529D /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		57C53A8EA156018B0F6E04F68F3D3C8E /* Pods-FindMyVaccine-FindMyVaccineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16044D8C80C340615F991933AB6B685C /* Pods-FindMyVaccine-FindMyVaccineUITests.modulemap */,
+				6ED785C3ABEAD0CB3912D13D20831922 /* Pods-FindMyVaccine-FindMyVaccineUITests-acknowledgements.markdown */,
+				3B48E6499A90E7E0EA6972C95C0DB22B /* Pods-FindMyVaccine-FindMyVaccineUITests-acknowledgements.plist */,
+				27027CD30A93B6D2AC0EBD78D63D96F9 /* Pods-FindMyVaccine-FindMyVaccineUITests-dummy.m */,
+				50297E44B94F8B445D07858A95C6334A /* Pods-FindMyVaccine-FindMyVaccineUITests-frameworks.sh */,
+				9997876F0961D82BF63BD212EBA885E6 /* Pods-FindMyVaccine-FindMyVaccineUITests-Info.plist */,
+				D7518AC1189C8E80F4E52649F4035DC4 /* Pods-FindMyVaccine-FindMyVaccineUITests-umbrella.h */,
+				0717D827686C2C78519BEB213B3F7337 /* Pods-FindMyVaccine-FindMyVaccineUITests.debug.xcconfig */,
+				36B0DDC4B444DC8FD5424D99FE11A750 /* Pods-FindMyVaccine-FindMyVaccineUITests.release.xcconfig */,
+			);
+			name = "Pods-FindMyVaccine-FindMyVaccineUITests";
+			path = "Target Support Files/Pods-FindMyVaccine-FindMyVaccineUITests";
+			sourceTree = "<group>";
+		};
+		832BE3D8C2F103CE673B12AA3B20A792 /* Pods-FindMyVaccineTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8A97076B42375B9380A24D9D5D6C19 /* Pods-FindMyVaccineTests.modulemap */,
+				2A5328BAE183791740F621076D14644E /* Pods-FindMyVaccineTests-acknowledgements.markdown */,
+				1DC797D0D3FB88A6F5F87E657632E88F /* Pods-FindMyVaccineTests-acknowledgements.plist */,
+				8C32DC2E8D3B897B20308FD901A5B9A4 /* Pods-FindMyVaccineTests-dummy.m */,
+				04AAD23D6FF3081F19103C9E3770EBAB /* Pods-FindMyVaccineTests-Info.plist */,
+				D0AB496342C8D733A693F73BFE4D07D8 /* Pods-FindMyVaccineTests-umbrella.h */,
+				8B242187A0C0EA2C5E1C2D40E6546E76 /* Pods-FindMyVaccineTests.debug.xcconfig */,
+				B6ECB4EC908A2F5B7FB001D4C53AD5A3 /* Pods-FindMyVaccineTests.release.xcconfig */,
+			);
+			name = "Pods-FindMyVaccineTests";
+			path = "Target Support Files/Pods-FindMyVaccineTests";
+			sourceTree = "<group>";
+		};
+		C1DEE2AAD5F0D36CB1AAB340B98B5C81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E582FFC2967E90C90960CEAF3C8CFD6E /* Pods_FindMyVaccine.framework */,
+				8DAA1B020B436F3E7AC6FFC865849923 /* Pods_FindMyVaccine_FindMyVaccineUITests.framework */,
+				43CDF72A52206F20D11E09F840FEF053 /* Pods_FindMyVaccineTests.framework */,
+				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2C6A71D462ED46C2A7F74D962134DC74 /* Pods */,
+				C1DEE2AAD5F0D36CB1AAB340B98B5C81 /* Products */,
+				D4C266ED53DF943143282B19DAEC660D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4C266ED53DF943143282B19DAEC660D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C2F1959AA24E9A8FAF55ADD2018D247 /* Pods-FindMyVaccine */,
+				57C53A8EA156018B0F6E04F68F3D3C8E /* Pods-FindMyVaccine-FindMyVaccineUITests */,
+				832BE3D8C2F103CE673B12AA3B20A792 /* Pods-FindMyVaccineTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E7117206C2C7669CF7C06E59DE55529D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4A0FD389D173F56FBDB8A357093095A /* SwiftyJSON.modulemap */,
+				593C23BE6F81900B7E5D14655827CBEC /* SwiftyJSON-dummy.m */,
+				60A5446E3184AC9044FD67AD5C6955CF /* SwiftyJSON-Info.plist */,
+				6A354C76B80E89FBF808D97B0B17C43C /* SwiftyJSON-prefix.pch */,
+				A02287654566C4E833D550868E61137D /* SwiftyJSON-umbrella.h */,
+				F8D55E3BEC2588689D54AFF1AE0AC1DF /* SwiftyJSON.debug.xcconfig */,
+				53C1A7E15161AE3A0E3A5090E19F84AE /* SwiftyJSON.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0192DC3275C69487806F14F09194CDB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E645CABD44079D1DE76DE73F238DB8C /* Pods-FindMyVaccine-FindMyVaccineUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271B13DFE0F6E75F85D7FC45832E0DF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB787E84181EC6CD518EB7C63E2F2216 /* Pods-FindMyVaccine-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28D11A7696F418DD3D054CBCA373346 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EF47FAEB0C3F755E2917C63808809B /* Pods-FindMyVaccineTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		898D0402284408F8E08DD076D8F9D48D /* Pods-FindMyVaccine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B35BFB76C31DD671DB584FE15691628C /* Build configuration list for PBXNativeTarget "Pods-FindMyVaccine" */;
+			buildPhases = (
+				271B13DFE0F6E75F85D7FC45832E0DF4 /* Headers */,
+				2A5CAA2B751659B54825999EE0BCB34C /* Sources */,
+				220990A1F0AEE0DDD1B5CBCF57D187B4 /* Frameworks */,
+				63AA2CEE3B39C8C7B2807165703401AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7697B696B388EA41434FFDF2E3FE228B /* PBXTargetDependency */,
+			);
+			name = "Pods-FindMyVaccine";
+			productName = "Pods-FindMyVaccine";
+			productReference = E582FFC2967E90C90960CEAF3C8CFD6E /* Pods_FindMyVaccine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BBD148A6086066AB2705E87D12728022 /* Pods-FindMyVaccineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CF81B24B8BD28DB82F3ED42F9547DEF /* Build configuration list for PBXNativeTarget "Pods-FindMyVaccineTests" */;
+			buildPhases = (
+				D28D11A7696F418DD3D054CBCA373346 /* Headers */,
+				F5AD6887EFDE8ACC2489442B35BEE8A9 /* Sources */,
+				C0D4C0FB7A552B4C3F55AFE0CD2AF1ED /* Frameworks */,
+				DA1FB9BAFD852361CCBF360C721A6E12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7BD6584169662C231702CACD8A573FA /* PBXTargetDependency */,
+			);
+			name = "Pods-FindMyVaccineTests";
+			productName = "Pods-FindMyVaccineTests";
+			productReference = 43CDF72A52206F20D11E09F840FEF053 /* Pods_FindMyVaccineTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */,
+				1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */,
+				AD9C5A8DAF4334B670E91B2EC08DBE2C /* Frameworks */,
+				D098F7F0080A87A1F472C81FC2F85528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DCE8956AFD8F02D6C3B81EDD2E2A0A50 /* Pods-FindMyVaccine-FindMyVaccineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FECC9E0B7E8B1679DE182F8FD7A4EA6 /* Build configuration list for PBXNativeTarget "Pods-FindMyVaccine-FindMyVaccineUITests" */;
+			buildPhases = (
+				0192DC3275C69487806F14F09194CDB1 /* Headers */,
+				65A9624DD8F057CDD6658BECB302D3FE /* Sources */,
+				F74CECB8B7AEDB698E83D92BD15AD773 /* Frameworks */,
+				AD5AADDDC20FAFDFAD94C5F7EF3F455A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8957C4C33583B1EF819F8CEB474F6A5 /* PBXTargetDependency */,
+			);
+			name = "Pods-FindMyVaccine-FindMyVaccineUITests";
+			productName = "Pods-FindMyVaccine-FindMyVaccineUITests";
+			productReference = 8DAA1B020B436F3E7AC6FFC865849923 /* Pods_FindMyVaccine_FindMyVaccineUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C1DEE2AAD5F0D36CB1AAB340B98B5C81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				898D0402284408F8E08DD076D8F9D48D /* Pods-FindMyVaccine */,
+				DCE8956AFD8F02D6C3B81EDD2E2A0A50 /* Pods-FindMyVaccine-FindMyVaccineUITests */,
+				BBD148A6086066AB2705E87D12728022 /* Pods-FindMyVaccineTests */,
+				D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63AA2CEE3B39C8C7B2807165703401AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5AADDDC20FAFDFAD94C5F7EF3F455A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D098F7F0080A87A1F472C81FC2F85528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1FB9BAFD852361CCBF360C721A6E12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */,
+				7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5CAA2B751659B54825999EE0BCB34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5AC9CCB98D4A771ADBE1C793BEAB1F0 /* Pods-FindMyVaccine-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A9624DD8F057CDD6658BECB302D3FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C339F771A60548A4DFEC45361A839366 /* Pods-FindMyVaccine-FindMyVaccineUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5AD6887EFDE8ACC2489442B35BEE8A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145A8BA59E7B9B12B3D935ACCBF1B389 /* Pods-FindMyVaccineTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7697B696B388EA41434FFDF2E3FE228B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = 2FBFD40D67A44B795478E76BE87927ED /* PBXContainerItemProxy */;
+		};
+		E7BD6584169662C231702CACD8A573FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FindMyVaccine";
+			target = 898D0402284408F8E08DD076D8F9D48D /* Pods-FindMyVaccine */;
+			targetProxy = EE8663C09895B023A0E49A56492067FC /* PBXContainerItemProxy */;
+		};
+		F8957C4C33583B1EF819F8CEB474F6A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = 86F8DE6BF9C034ADA8EDC9591789BD7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		218C66A119E70617DF8C9704BC25842F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D55E3BEC2588689D54AFF1AE0AC1DF /* SwiftyJSON.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32DF9D0DF70AFD9DE5C2178446F3952C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0717D827686C2C78519BEB213B3F7337 /* Pods-FindMyVaccine-FindMyVaccineUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FindMyVaccine-FindMyVaccineUITests/Pods-FindMyVaccine-FindMyVaccineUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FindMyVaccine-FindMyVaccineUITests/Pods-FindMyVaccine-FindMyVaccineUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C3AF5EE62D0C659A047B779FEDBA3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3764F04EEA4775A8AAF7D0279C727206 /* Pods-FindMyVaccine.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FindMyVaccine/Pods-FindMyVaccine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FindMyVaccine/Pods-FindMyVaccine.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61B1E216A15BEC117C8675701276B74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C1A7E15161AE3A0E3A5090E19F84AE /* SwiftyJSON.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D3E16B6A3E63CC6ED4A948535DB3520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB8365BD5C46CCF9CCDCBA171350F87 /* Pods-FindMyVaccine.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FindMyVaccine/Pods-FindMyVaccine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FindMyVaccine/Pods-FindMyVaccine.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		749EDE0F62441B1421BF540AFE0DA18A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6ECB4EC908A2F5B7FB001D4C53AD5A3 /* Pods-FindMyVaccineTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FindMyVaccineTests/Pods-FindMyVaccineTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FindMyVaccineTests/Pods-FindMyVaccineTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9BAE223D96F75BFE58EAAB8D4F36B995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B242187A0C0EA2C5E1C2D40E6546E76 /* Pods-FindMyVaccineTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FindMyVaccineTests/Pods-FindMyVaccineTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FindMyVaccineTests/Pods-FindMyVaccineTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E163AD60E984FE7D41D489BF0D985A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36B0DDC4B444DC8FD5424D99FE11A750 /* Pods-FindMyVaccine-FindMyVaccineUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FindMyVaccine-FindMyVaccineUITests/Pods-FindMyVaccine-FindMyVaccineUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FindMyVaccine-FindMyVaccineUITests/Pods-FindMyVaccine-FindMyVaccineUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CF81B24B8BD28DB82F3ED42F9547DEF /* Build configuration list for PBXNativeTarget "Pods-FindMyVaccineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAE223D96F75BFE58EAAB8D4F36B995 /* Debug */,
+				749EDE0F62441B1421BF540AFE0DA18A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FECC9E0B7E8B1679DE182F8FD7A4EA6 /* Build configuration list for PBXNativeTarget "Pods-FindMyVaccine-FindMyVaccineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32DF9D0DF70AFD9DE5C2178446F3952C /* Debug */,
+				E163AD60E984FE7D41D489BF0D985A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218C66A119E70617DF8C9704BC25842F /* Debug */,
+				61B1E216A15BEC117C8675701276B74D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B35BFB76C31DD671DB584FE15691628C /* Build configuration list for PBXNativeTarget "Pods-FindMyVaccine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C3AF5EE62D0C659A047B779FEDBA3D4 /* Debug */,
+				6D3E16B6A3E63CC6ED4A948535DB3520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
