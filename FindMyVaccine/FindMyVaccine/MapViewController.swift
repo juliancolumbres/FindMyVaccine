@@ -4,16 +4,19 @@
 //
 //  Created by Julian Columbres on 4/23/21.
 //
-
+import SwiftUI
 import UIKit
 import MapKit
 import SwiftyJSON
 import Foundation
-import UIKit
+import CoreLocation
 
-class MapViewController: UIViewController {
+
+class MapViewController: UIViewController, CLLocationManagerDelegate {
 
     @IBOutlet weak var mapView: MKMapView!
+    
+    var locationManager : CLLocationManager!
     
     var venues = [Venue]()
     
@@ -28,7 +31,7 @@ class MapViewController: UIViewController {
                         if let venue = Venue.from(json: venueJSON) {
                             if venue.appointmentsAvailable {
                                 self.venues.append(venue)
-                                print(venue)
+                                print(venue.title)
                             }
                         }
                     }
@@ -43,14 +46,36 @@ class MapViewController: UIViewController {
     }
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let initialLocation = CLLocation(latitude: 37.3352, longitude: -121.8811)
-        zoomMapOn(location: initialLocation)
+        locationManager = CLLocationManager()
+        locationManager.delegate = self
+        locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
+        locationManager.distanceFilter = 200
+        locationManager.requestWhenInUseAuthorization()
+        
+        
+        //let initialLocation = CLLocation(latitude: 37.3352, longitude: -121.8811)
+//        zoomMapOn(location: initialLocation)
         mapView.delegate = self
         fetchData()
         mapView.addAnnotations(venues)
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+        if status == CLAuthorizationStatus.authorizedWhenInUse {
+            locationManager.startUpdatingLocation()
+        }
+    }
+
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        if let location = locations.first {
+            let span = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
+            let region = MKCoordinateRegion(center: location.coordinate, span: span)
+            mapView.setRegion(region, animated: false)
+        }
     }
     
 
