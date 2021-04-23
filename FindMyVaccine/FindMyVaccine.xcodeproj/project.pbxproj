@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,11 @@
 		6C914B62262A396200042414 /* FindMyVaccineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C914B61262A396200042414 /* FindMyVaccineTests.swift */; };
 		6C914B6D262A396200042414 /* FindMyVaccineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C914B6C262A396200042414 /* FindMyVaccineUITests.swift */; };
 		6C914B7E262A3F3900042414 /* VaccineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C914B7D262A3F3900042414 /* VaccineViewController.swift */; };
+		BF6C723C8C14A4E08E796662 /* Pods_FindMyVaccine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A7B5645C640CC0175EB265 /* Pods_FindMyVaccine.framework */; };
+		E039D5BB61EEB74B02C67AD2 /* Pods_FindMyVaccineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84521EE52F79B931609DCA2C /* Pods_FindMyVaccineTests.framework */; };
+		E0DF4B4DFD3D37836BEC08E4 /* Pods_FindMyVaccine_FindMyVaccineUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F096BF024E1AF3C779B4E6A5 /* Pods_FindMyVaccine_FindMyVaccineUITests.framework */; };
+		FA33BAA72632BEFF00E8D62D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33BAA62632BEFF00E8D62D /* MapViewController.swift */; };
+		FA33BAB62632C10700E8D62D /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33BAB52632C10700E8D62D /* Venue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,9 @@
 
 /* Begin PBXFileReference section */
 		0E9F7660262B8E0000AF42C1 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		464DCBEFEDE47CD5AE025468 /* Pods-FindMyVaccine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyVaccine.debug.xcconfig"; path = "Target Support Files/Pods-FindMyVaccine/Pods-FindMyVaccine.debug.xcconfig"; sourceTree = "<group>"; };
+		5FC3FB8945D793AA21271E72 /* Pods-FindMyVaccine-FindMyVaccineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyVaccine-FindMyVaccineUITests.release.xcconfig"; path = "Target Support Files/Pods-FindMyVaccine-FindMyVaccineUITests/Pods-FindMyVaccine-FindMyVaccineUITests.release.xcconfig"; sourceTree = "<group>"; };
+		62D00CB82FE74421622671D6 /* Pods-FindMyVaccine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyVaccine.release.xcconfig"; path = "Target Support Files/Pods-FindMyVaccine/Pods-FindMyVaccine.release.xcconfig"; sourceTree = "<group>"; };
 		6C914B47262A396000042414 /* FindMyVaccine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyVaccine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C914B4A262A396000042414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C914B4C262A396000042414 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +59,14 @@
 		6C914B6C262A396200042414 /* FindMyVaccineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyVaccineUITests.swift; sourceTree = "<group>"; };
 		6C914B6E262A396200042414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C914B7D262A3F3900042414 /* VaccineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineViewController.swift; sourceTree = "<group>"; };
+		7E394851E42A00253B08F1E1 /* Pods-FindMyVaccine-FindMyVaccineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyVaccine-FindMyVaccineUITests.debug.xcconfig"; path = "Target Support Files/Pods-FindMyVaccine-FindMyVaccineUITests/Pods-FindMyVaccine-FindMyVaccineUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		84521EE52F79B931609DCA2C /* Pods_FindMyVaccineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindMyVaccineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC107A3D0F3E1116AE3A0A6D /* Pods-FindMyVaccineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyVaccineTests.release.xcconfig"; path = "Target Support Files/Pods-FindMyVaccineTests/Pods-FindMyVaccineTests.release.xcconfig"; sourceTree = "<group>"; };
+		F096BF024E1AF3C779B4E6A5 /* Pods_FindMyVaccine_FindMyVaccineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindMyVaccine_FindMyVaccineUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A7B5645C640CC0175EB265 /* Pods_FindMyVaccine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindMyVaccine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA33BAA62632BEFF00E8D62D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FA33BAB52632C10700E8D62D /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		FD35B0D242B3026394BB2625 /* Pods-FindMyVaccineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyVaccineTests.debug.xcconfig"; path = "Target Support Files/Pods-FindMyVaccineTests/Pods-FindMyVaccineTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6C723C8C14A4E08E796662 /* Pods_FindMyVaccine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E039D5BB61EEB74B02C67AD2 /* Pods_FindMyVaccineTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +90,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0DF4B4DFD3D37836BEC08E4 /* Pods_FindMyVaccine_FindMyVaccineUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64E49F5E2043E10629A3981B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4A7B5645C640CC0175EB265 /* Pods_FindMyVaccine.framework */,
+				F096BF024E1AF3C779B4E6A5 /* Pods_FindMyVaccine_FindMyVaccineUITests.framework */,
+				84521EE52F79B931609DCA2C /* Pods_FindMyVaccineTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6C914B3E262A396000042414 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +114,8 @@
 				6C914B60262A396200042414 /* FindMyVaccineTests */,
 				6C914B6B262A396200042414 /* FindMyVaccineUITests */,
 				6C914B48262A396000042414 /* Products */,
+				E777E11437F7B32EB8D4B83D /* Pods */,
+				64E49F5E2043E10629A3981B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +140,8 @@
 				6C914B58262A396200042414 /* Info.plist */,
 				6C914B7D262A3F3900042414 /* VaccineViewController.swift */,
 				0E9F7660262B8E0000AF42C1 /* LocationTableViewCell.swift */,
+				FA33BAA62632BEFF00E8D62D /* MapViewController.swift */,
+				FA33BAB52632C10700E8D62D /* Venue.swift */,
 			);
 			path = FindMyVaccine;
 			sourceTree = "<group>";
@@ -131,6 +164,19 @@
 			path = FindMyVaccineUITests;
 			sourceTree = "<group>";
 		};
+		E777E11437F7B32EB8D4B83D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				464DCBEFEDE47CD5AE025468 /* Pods-FindMyVaccine.debug.xcconfig */,
+				62D00CB82FE74421622671D6 /* Pods-FindMyVaccine.release.xcconfig */,
+				7E394851E42A00253B08F1E1 /* Pods-FindMyVaccine-FindMyVaccineUITests.debug.xcconfig */,
+				5FC3FB8945D793AA21271E72 /* Pods-FindMyVaccine-FindMyVaccineUITests.release.xcconfig */,
+				FD35B0D242B3026394BB2625 /* Pods-FindMyVaccineTests.debug.xcconfig */,
+				BC107A3D0F3E1116AE3A0A6D /* Pods-FindMyVaccineTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C914B71262A396200042414 /* Build configuration list for PBXNativeTarget "FindMyVaccine" */;
 			buildPhases = (
+				79B0A5C864DB36B07B16DF9C /* [CP] Check Pods Manifest.lock */,
 				6C914B43262A396000042414 /* Sources */,
 				6C914B44262A396000042414 /* Frameworks */,
 				6C914B45262A396000042414 /* Resources */,
+				00FE7A44498569BE824532B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C914B74262A396200042414 /* Build configuration list for PBXNativeTarget "FindMyVaccineTests" */;
 			buildPhases = (
+				E35CCBD9ED494A8FCA940F98 /* [CP] Check Pods Manifest.lock */,
 				6C914B59262A396200042414 /* Sources */,
 				6C914B5A262A396200042414 /* Frameworks */,
 				6C914B5B262A396200042414 /* Resources */,
@@ -173,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C914B77262A396200042414 /* Build configuration list for PBXNativeTarget "FindMyVaccineUITests" */;
 			buildPhases = (
+				FAD8E8ED33781B2813410236 /* [CP] Check Pods Manifest.lock */,
 				6C914B64262A396200042414 /* Sources */,
 				6C914B65262A396200042414 /* Frameworks */,
 				6C914B66262A396200042414 /* Resources */,
+				3C9851C2F48DCB6AE6B7B422 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,14 +307,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00FE7A44498569BE824532B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindMyVaccine/Pods-FindMyVaccine-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindMyVaccine/Pods-FindMyVaccine-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindMyVaccine/Pods-FindMyVaccine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C9851C2F48DCB6AE6B7B422 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindMyVaccine-FindMyVaccineUITests/Pods-FindMyVaccine-FindMyVaccineUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindMyVaccine-FindMyVaccineUITests/Pods-FindMyVaccine-FindMyVaccineUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindMyVaccine-FindMyVaccineUITests/Pods-FindMyVaccine-FindMyVaccineUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79B0A5C864DB36B07B16DF9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindMyVaccine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E35CCBD9ED494A8FCA940F98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindMyVaccineTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAD8E8ED33781B2813410236 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindMyVaccine-FindMyVaccineUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6C914B43262A396000042414 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6C914B7E262A3F3900042414 /* VaccineViewController.swift in Sources */,
+				FA33BAB62632C10700E8D62D /* Venue.swift in Sources */,
 				6C914B4B262A396000042414 /* AppDelegate.swift in Sources */,
 				0E9F7661262B8E0000AF42C1 /* LocationTableViewCell.swift in Sources */,
+				FA33BAA72632BEFF00E8D62D /* MapViewController.swift in Sources */,
 				6C914B4D262A396000042414 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,18 +593,19 @@
 		};
 		6C914B72262A396200042414 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 464DCBEFEDE47CD5AE025468 /* Pods-FindMyVaccine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6522S3ANC7;
+				DEVELOPMENT_TEAM = Q757V6TRZB;
 				INFOPLIST_FILE = FindMyVaccine/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = codepath.FindMyVaccine;
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.FindMyVaccine.julian;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,18 +614,19 @@
 		};
 		6C914B73262A396200042414 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62D00CB82FE74421622671D6 /* Pods-FindMyVaccine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6522S3ANC7;
+				DEVELOPMENT_TEAM = Q757V6TRZB;
 				INFOPLIST_FILE = FindMyVaccine/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = codepath.FindMyVaccine;
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.FindMyVaccine.julian;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -477,11 +635,13 @@
 		};
 		6C914B75262A396200042414 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD35B0D242B3026394BB2625 /* Pods-FindMyVaccineTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6522S3ANC7;
+				DEVELOPMENT_TEAM = Q757V6TRZB;
 				INFOPLIST_FILE = FindMyVaccineTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -499,11 +659,13 @@
 		};
 		6C914B76262A396200042414 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC107A3D0F3E1116AE3A0A6D /* Pods-FindMyVaccineTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6522S3ANC7;
+				DEVELOPMENT_TEAM = Q757V6TRZB;
 				INFOPLIST_FILE = FindMyVaccineTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -521,6 +683,7 @@
 		};
 		6C914B78262A396200042414 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E394851E42A00253B08F1E1 /* Pods-FindMyVaccine-FindMyVaccineUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +704,7 @@
 		};
 		6C914B79262A396200042414 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FC3FB8945D793AA21271E72 /* Pods-FindMyVaccine-FindMyVaccineUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

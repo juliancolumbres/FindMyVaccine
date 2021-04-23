@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wer-Wo-Eed">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -93,15 +94,15 @@
             </objects>
             <point key="canvasLocation" x="1932" y="-192"/>
         </scene>
-        <!--Map-->
+        <!--MapViewController-->
         <scene sceneID="DbV-Yb-Y42">
             <objects>
-                <viewController id="Qbe-rP-f8z" sceneMemberID="viewController">
+                <viewController title="MapViewController" id="Qbe-rP-f8z" customClass="MapViewController" customModule="FindMyVaccine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SNd-Ec-cHf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="8ib-RI-xUh">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="mutedStandard" translatesAutoresizingMaskIntoConstraints="NO" id="8ib-RI-xUh">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
@@ -110,10 +111,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" id="GIT-NQ-Vpa"/>
+                    <connections>
+                        <outlet property="mapView" destination="8ib-RI-xUh" id="Dye-di-X4i"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0nT-lR-J0w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1782.608695652174" y="443.97321428571428"/>
+            <point key="canvasLocation" x="1932" y="591"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="gAR-Ls-m1a">
