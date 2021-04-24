@@ -11,10 +11,16 @@ import SwiftyJSON
 import Foundation
 import CoreLocation
 
+struct getCoordinates{
+    static var lat = 0.0
+    static var long = 0.0
+}
 
 class MapViewController: UIViewController, CLLocationManagerDelegate {
 
     @IBOutlet weak var mapView: MKMapView!
+    
+    static var coordinatesTest : CLLocationCoordinate2D?
     
     var locationManager : CLLocationManager!
     
@@ -29,9 +35,11 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
                 if let venueJSONs = json["features"].array {
                     for venueJSON in venueJSONs {
                         if let venue = Venue.from(json: venueJSON) {
-                            if venue.appointmentsAvailable {
+                            let comparedLong = abs(venue.coordinate.longitude - getCoordinates.long)
+                            let comparedLat = abs(venue.coordinate.latitude - getCoordinates.lat)
+                            
+                            if comparedLong <= 0.01 && comparedLat <= 0.01  {
                                 self.venues.append(venue)
-                                print(venue.title)
                             }
                         }
                     }
@@ -55,13 +63,13 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
         locationManager.distanceFilter = 200
         locationManager.requestWhenInUseAuthorization()
+
         
         
         //let initialLocation = CLLocation(latitude: 37.3352, longitude: -121.8811)
 //        zoomMapOn(location: initialLocation)
         mapView.delegate = self
-        fetchData()
-        mapView.addAnnotations(venues)
+        
     }
     
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
@@ -76,8 +84,17 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
             let region = MKCoordinateRegion(center: location.coordinate, span: span)
             mapView.setRegion(region, animated: false)
         }
+        guard let locValue: CLLocationCoordinate2D = manager.location?.coordinate else { return }
+        //print("locations = \(locValue.latitude) \(locValue.longitude)")
+        //print(locValue)
+        getCoordinates.lat = locValue.latitude
+        getCoordinates.long = locValue.longitude
+        fetchData()
+        mapView.addAnnotations(venues)
+        
     }
     
+
 
     private let regionRadius: CLLocationDistance = 1000 // 1km
     func zoomMapOn(location: CLLocation)
@@ -88,6 +105,8 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     
     
 }
+
+
 
 extension MapViewController : MKMapViewDelegate
 {
