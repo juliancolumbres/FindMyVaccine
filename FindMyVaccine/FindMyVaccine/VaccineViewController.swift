@@ -10,9 +10,13 @@ import MapKit
 import SwiftyJSON
 import Foundation
 
+
+
 class VaccineViewController: UIViewController, UITableViewDataSource, UITabBarDelegate, UITableViewDelegate {
     @IBOutlet weak var tableView: UITableView!
-
+    
+    
+    
     var venues = [Venue]()
     
     func fetchData()
@@ -24,12 +28,16 @@ class VaccineViewController: UIViewController, UITableViewDataSource, UITabBarDe
                 if let venueJSONs = json["features"].array {
                     for venueJSON in venueJSONs {
                         if let venue = Venue.from(json: venueJSON) {
-                            if venue.appointmentsAvailable {
+                            let comparedLong = venue.coordinate.longitude - getCoordinates.long
+                            let comparedLat = venue.coordinate.latitude - getCoordinates.lat
+                            
+                            if comparedLong <= 0.01 && comparedLat <= 0.01  {
                                 self.venues.append(venue)
                             }
                         }
                     }
-                    print(self.venues.count)
+                    //print(self.venues.count)
+                    //print("long \(getCoordinates.long)")
                 }
             } else {
                print("no file")
@@ -67,8 +75,14 @@ class VaccineViewController: UIViewController, UITableViewDataSource, UITabBarDe
         let cell = tableView.dequeueReusableCell(withIdentifier: "LocationTableViewCell") as! LocationTableViewCell
         
         cell.providerName?.text = venues[0].title
-        cell.appoinment?.text = "available"
-        cell.location?.text = venues[0].combinedAddress
+        //cell.appoinment?.text = String(venues[0].appointmentsAvailable)
+        if venues[0].appointmentsAvailable == true {
+            cell.appoinment?.text = "Appoinment Available"
+        }
+        else{
+            cell.appoinment?.text = "Appoinment Unavailable"
+        }
+            cell.location?.text = venues[0].combinedAddress
         return cell
     }
 }

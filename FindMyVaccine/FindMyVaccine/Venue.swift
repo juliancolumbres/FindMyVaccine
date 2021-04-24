@@ -4,10 +4,14 @@
 //
 //  Created by Julian Columbres on 4/23/21.
 //
-
-import MapKit
 import AddressBook
 import SwiftyJSON
+import SwiftUI
+import UIKit
+import MapKit
+import SwiftyJSON
+import Foundation
+import CoreLocation
 
 class Venue: NSObject, MKAnnotation
 {
@@ -16,6 +20,8 @@ class Venue: NSObject, MKAnnotation
     let coordinate: CLLocationCoordinate2D
     let appointmentsAvailable: BooleanLiteralType
     let combinedAddress: String?
+    
+
     
     init (title: String, locationName: String?, coordinate: CLLocationCoordinate2D, appointmentsAvailable: BooleanLiteralType, combinedAddress: String?)
     {
@@ -33,6 +39,9 @@ class Venue: NSObject, MKAnnotation
     var subtitle: String? {
         return locationName
     }
+    
+   
+    
 
     class func from(json: JSON) -> Venue?
     {
@@ -45,6 +54,7 @@ class Venue: NSObject, MKAnnotation
 
         let locationName = json["properties"]["address"].string
         let coordinates = json["geometry"]["coordinates"].array
+    
         let appointmentsAvailable = json["properties"]["appointments_available"].boolValue
         let long = coordinates![0].doubleValue
         let lat = coordinates![1].doubleValue
@@ -52,8 +62,9 @@ class Venue: NSObject, MKAnnotation
         
         let city = json["properties"]["city"].string
         let zipcode = json["properties"]["postal_code"].string
-        let combinedAddress = "\(String(describing: locationName))\(String(describing: city))\(String(describing: zipcode))"
-        
+        let combinedAddress = "\(locationName ?? "" ), \(city ?? ""), \(zipcode ?? "")"
+  
+       
         
         return Venue(title: title, locationName: locationName, coordinate: coordinate, appointmentsAvailable: appointmentsAvailable, combinedAddress: combinedAddress)
     }
