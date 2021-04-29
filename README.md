@@ -6,6 +6,7 @@
 1. [Wireframes](#Wireframes)
 2. [Schema](#Schema)
 3. [Milestone 1: Creating User Interface](#Milestone-1-Creating-User-Interface)
+4. [Milestone 2: Displaying Data](#Milestone-2-Displaying-Data)
 
 
 ## Overview
@@ -115,5 +116,23 @@ Base URL - https://www.vaccinespotter.org/api/v0/states/CA.json
 - From location detail screen, user can see the location on a map in map view screen.
 
 <img src='http://g.recordit.co/3eST1BJzlB.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
+
+## Milestone 2: Displaying Data 
+
+
+### Pin locations on Map View
+
+<img src='http://g.recordit.co/R5FTUVhshN.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
+### Displaying Location Detail
+
+<img src='http://g.recordit.co/9rvOa9mqEJ.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
+
+
 
 
