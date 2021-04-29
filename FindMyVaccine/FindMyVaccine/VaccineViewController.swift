@@ -74,15 +74,17 @@ class VaccineViewController: UIViewController, UITableViewDataSource, UITabBarDe
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "LocationTableViewCell") as! LocationTableViewCell
         
-        cell.providerName?.text = venues[0].title
+        let venue = venues[indexPath.row]
+        
+        cell.providerName?.text = venue.title
         //cell.appoinment?.text = String(venues[0].appointmentsAvailable)
-        if venues[0].appointmentsAvailable == true {
+        if venue.appointmentsAvailable == true {
             cell.appoinment?.text = "Appoinment Available"
         }
         else{
             cell.appoinment?.text = "Appoinment Unavailable"
         }
-            cell.location?.text = venues[0].combinedAddress
+            cell.location?.text = venue.combinedAddress
         return cell
     }
 }

@@ -34,7 +34,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="134"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Provider" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vsS-HS-PV2">
+                                                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Provider" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vsS-HS-PV2">
                                                     <rect key="frame" x="10" y="10" width="69" height="21"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -76,6 +76,7 @@
                                             <outlet property="appoinment" destination="lEf-Qb-gyX" id="P9C-Uq-XwA"/>
                                             <outlet property="location" destination="qIG-1p-E8C" id="KNa-AX-whf"/>
                                             <outlet property="providerName" destination="vsS-HS-PV2" id="oX2-En-YD6"/>
+                                            <segue destination="yyd-T0-Mwh" kind="presentation" id="9Kr-7E-2jS"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -93,6 +94,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1932" y="-192"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="Pdp-H7-Nw4">
+            <objects>
+                <viewController id="yyd-T0-Mwh" customClass="WebViewController" customModule="FindMyVaccine" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KKs-LJ-7y3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="DlK-Cl-VzU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6va-Vj-hef" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2736" y="-186"/>
         </scene>
         <!--MapViewController-->
         <scene sceneID="DbV-Yb-Y42">
