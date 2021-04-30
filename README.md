@@ -28,7 +28,7 @@ Find my vaccine is an app that allows users to browse for Covid-19 vaccination l
 
 **Required Must-have Stories**
 * [x] Having a "Detail Screen"
-* [ ] Displaying a list of locations
+* [x] Displaying a list of locations
 * [ ] Providing an url to location's website
 
 **Optional Nice-to-have Stories**
