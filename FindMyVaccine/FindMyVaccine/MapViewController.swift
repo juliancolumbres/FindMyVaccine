@@ -90,6 +90,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         getCoordinates.lat = locValue.latitude
         getCoordinates.long = locValue.longitude
         fetchData()
+        print("fetched data")
         mapView.addAnnotations(venues)
         
     }

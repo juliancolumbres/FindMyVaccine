@@ -20,16 +20,18 @@ class Venue: NSObject, MKAnnotation
     let coordinate: CLLocationCoordinate2D
     let appointmentsAvailable: BooleanLiteralType
     let combinedAddress: String?
+    let websiteUrl: String?
     
 
     
-    init (title: String, locationName: String?, coordinate: CLLocationCoordinate2D, appointmentsAvailable: BooleanLiteralType, combinedAddress: String?)
+    init (title: String, locationName: String?, coordinate: CLLocationCoordinate2D, appointmentsAvailable: BooleanLiteralType, combinedAddress: String?, websiteUrl: String?)
     {
         self.title = title
         self.locationName = locationName
         self.coordinate = coordinate
         self.appointmentsAvailable = appointmentsAvailable
         self.combinedAddress = combinedAddress
+        self.websiteUrl = websiteUrl
         
         
         super.init()
@@ -46,7 +48,7 @@ class Venue: NSObject, MKAnnotation
     class func from(json: JSON) -> Venue?
     {
         var title: String
-        if let unwrappedTitle = json["properties"]["name"].string {
+        if let unwrappedTitle = json["properties"]["provider_brand_name"].string {
             title = unwrappedTitle
         } else {
             title = ""
@@ -63,9 +65,10 @@ class Venue: NSObject, MKAnnotation
         let city = json["properties"]["city"].string
         let zipcode = json["properties"]["postal_code"].string
         let combinedAddress = "\(locationName ?? "" ), \(city ?? ""), \(zipcode ?? "")"
-  
-       
         
-        return Venue(title: title, locationName: locationName, coordinate: coordinate, appointmentsAvailable: appointmentsAvailable, combinedAddress: combinedAddress)
+        let url = json["properties"]["url"].string
+        let websiteUrl = "\(url ?? "")"
+        
+        return Venue(title: title, locationName: locationName, coordinate: coordinate, appointmentsAvailable: appointmentsAvailable, combinedAddress: combinedAddress, websiteUrl: websiteUrl)
     }
 }
