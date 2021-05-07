@@ -7,6 +7,8 @@
 2. [Schema](#Schema)
 3. [Milestone 1: Creating User Interface](#Milestone-1-Creating-User-Interface)
 4. [Milestone 2: Displaying Data](#Milestone-2-Displaying-Data)
+5. [Milestone 3: Viewing Website](#Milestone-3-Viewing-Website)
+
 
 
 ## Overview
@@ -29,7 +31,7 @@ Find my vaccine is an app that allows users to browse for Covid-19 vaccination l
 **Required Must-have Stories**
 * [x] Having a "Detail Screen"
 * [x] Displaying a list of locations
-* [ ] Providing an url to location's website
+* [x] Providing an url to location's website
 
 **Optional Nice-to-have Stories**
 
@@ -99,7 +101,7 @@ Base URL - https://www.vaccinespotter.org/api/v0/states/CA.json
 
 ### Adding App Icon 
 
-<img src="https://i.imgur.com/GSrvGpo.png" width=600> 
+<img src="https://i.imgur.com/GSrvGpo.png" width=250> 
 
 
 
@@ -107,7 +109,7 @@ Base URL - https://www.vaccinespotter.org/api/v0/states/CA.json
 
 - The location detail screen consists of three main information: provider name, appointment status, and address.
 
-<img src='http://g.recordit.co/aj7eTB4R64.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/aj7eTB4R64.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
 
 
 
@@ -115,7 +117,7 @@ Base URL - https://www.vaccinespotter.org/api/v0/states/CA.json
 
 - From location detail screen, user can see the location on a map in map view screen.
 
-<img src='http://g.recordit.co/3eST1BJzlB.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/3eST1BJzlB.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
 
 
 
@@ -124,13 +126,20 @@ Base URL - https://www.vaccinespotter.org/api/v0/states/CA.json
 
 ### Pin locations on Map View
 
-<img src='http://g.recordit.co/R5FTUVhshN.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/R5FTUVhshN.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
 
 
 ### Displaying Location Detail
 
-<img src='http://g.recordit.co/9rvOa9mqEJ.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/9rvOa9mqEJ.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
 
+
+## Milestone 3: Viewing Website
+
+
+### Open vaccine centers' websites 
+
+<img src='https://i.imgur.com/wTHgeYo.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
 
 
 
