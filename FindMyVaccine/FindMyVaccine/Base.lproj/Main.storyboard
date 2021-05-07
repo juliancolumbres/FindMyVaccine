@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4Qi-X8-y4a">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="940"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <searchBar key="tableHeaderView" contentMode="redraw" id="ZK7-AL-yDS">
@@ -88,12 +88,13 @@
                     <tabBarItem key="tabBarItem" title="Location Detail" id="Gmx-mq-R0x"/>
                     <navigationItem key="navigationItem" id="hQM-WX-WS1"/>
                     <connections>
+                        <outlet property="searchBar" destination="ZK7-AL-yDS" id="bI3-dw-n4B"/>
                         <outlet property="tableView" destination="4Qi-X8-y4a" id="p4K-55-aaU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1932" y="-192"/>
+            <point key="canvasLocation" x="1931.8840579710147" y="-192.1875"/>
         </scene>
         <!--Web View Controller-->
         <scene sceneID="Pdp-H7-Nw4">

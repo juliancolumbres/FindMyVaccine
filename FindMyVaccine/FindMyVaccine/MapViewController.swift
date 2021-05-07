@@ -38,7 +38,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
                             let comparedLong = abs(venue.coordinate.longitude - getCoordinates.long)
                             let comparedLat = abs(venue.coordinate.latitude - getCoordinates.lat)
                             
-                            if comparedLong <= 0.01 && comparedLat <= 0.01  {
+                            if comparedLong <= 0.1 && comparedLat <= 0.1 && venue.appointmentsAvailable == true  {
                                 self.venues.append(venue)
                             }
                         }
@@ -129,4 +129,10 @@ extension MapViewController : MKMapViewDelegate
         }
         return nil
     }
+    func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl){
+        let location = view.annotation as! Venue
+        let launchOptions = [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving]
+        location.mapItem().openInMaps(launchOptions: launchOptions)
+    }
+    
 }

@@ -12,11 +12,12 @@ import Foundation
 
 
 
-class VaccineViewController: UIViewController, UITableViewDataSource, UITabBarDelegate, UITableViewDelegate {
+class VaccineViewController: UIViewController, UITableViewDataSource, UITabBarDelegate, UITableViewDelegate, UISearchBarDelegate {
     @IBOutlet weak var tableView: UITableView!
     
+    @IBOutlet weak var searchBar: UISearchBar!
     
-    
+    var numberOfLocations = 10
     var venues = [Venue]()
     
     func fetchData()
@@ -31,7 +32,7 @@ class VaccineViewController: UIViewController, UITableViewDataSource, UITabBarDe
                             let comparedLong = venue.coordinate.longitude - getCoordinates.long
                             let comparedLat = venue.coordinate.latitude - getCoordinates.lat
                             
-                            if comparedLong <= 0.01 && comparedLat <= 0.01  {
+                            if comparedLong <= 0.1 && comparedLat <= 0.1 && venue.appointmentsAvailable == true  {
                                 self.venues.append(venue)
                             }
                         }
@@ -53,11 +54,13 @@ class VaccineViewController: UIViewController, UITableViewDataSource, UITabBarDe
         super.viewDidLoad()
         self.tableView.dataSource = self
         self.tableView.delegate = self
+        self.searchBar.delegate = self
         fetchData()
+        
         // Do any additional setup after loading the view.
     }
     
-
+    
     
     // MARK: - Navigation
 
@@ -79,9 +82,25 @@ class VaccineViewController: UIViewController, UITableViewDataSource, UITabBarDe
         
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.tableView.reloadData()
+    }
+    
+
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // changed from 20 to 30
-        return 30
+        return numberOfLocations
+    }
+    
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath){
+     
+        if indexPath.row + 1 == numberOfLocations {
+            numberOfLocations = numberOfLocations + 10
+            self.viewDidAppear(true)
+        }
+  
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -99,5 +118,9 @@ class VaccineViewController: UIViewController, UITableViewDataSource, UITabBarDe
         }
             cell.location?.text = venue.combinedAddress
         return cell
+    }
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String){
+        
     }
 }
