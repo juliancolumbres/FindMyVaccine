@@ -64,7 +64,18 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.distanceFilter = 200
         locationManager.requestWhenInUseAuthorization()
 
-        
+        // user doesn't allow access to location
+        if !CLLocationManager.locationServicesEnabled() {
+            print("loc denied, app will choose coords for user")
+            // set coordinates
+            getCoordinates.lat = 34.0522
+            getCoordinates.long = -118.2437
+            
+            // get and display data
+            fetchData()
+            print("fetched data")
+            mapView.addAnnotations(venues)
+        }
         
         //let initialLocation = CLLocation(latitude: 37.3352, longitude: -121.8811)
 //        zoomMapOn(location: initialLocation)
@@ -76,9 +87,12 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         if status == CLAuthorizationStatus.authorizedWhenInUse {
             locationManager.startUpdatingLocation()
         }
+        print("loc enabled at status? \(CLLocationManager.locationServicesEnabled())")
     }
 
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        print("loc enabled at update? \(CLLocationManager.locationServicesEnabled())")
+
         if let location = locations.first {
             let span = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
             let region = MKCoordinateRegion(center: location.coordinate, span: span)
@@ -87,12 +101,14 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         guard let locValue: CLLocationCoordinate2D = manager.location?.coordinate else { return }
         //print("locations = \(locValue.latitude) \(locValue.longitude)")
         //print(locValue)
-        getCoordinates.lat = locValue.latitude
-        getCoordinates.long = locValue.longitude
-        fetchData()
-        print("fetched data")
-        mapView.addAnnotations(venues)
-        
+        if CLLocationManager.locationServicesEnabled() {
+            print("loc enabled, getting lat & long")
+            getCoordinates.lat = locValue.latitude
+            getCoordinates.long = locValue.longitude
+            fetchData()
+            print("fetched data")
+            mapView.addAnnotations(venues)
+        }
     }
     
 
