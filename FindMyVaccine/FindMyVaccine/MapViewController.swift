@@ -64,22 +64,44 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.distanceFilter = 200
         locationManager.requestWhenInUseAuthorization()
 
-        
-        
         //let initialLocation = CLLocation(latitude: 37.3352, longitude: -121.8811)
 //        zoomMapOn(location: initialLocation)
         mapView.delegate = self
         
     }
     
+    // when user changes setting to deny / allow location access
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         if status == CLAuthorizationStatus.authorizedWhenInUse {
             locationManager.startUpdatingLocation()
         }
+        print("loc enabled at status? \(CLLocationManager.authorizationStatus() == .authorizedWhenInUse)")
+        
+        // when user doesn't allow access to location
+        if CLLocationManager.authorizationStatus() == .denied { // check if app is allowed to access location
+            print("loc denied, app will choose coords for user")
+            // set coordinates to LA coords
+            getCoordinates.lat = 34.0522
+            getCoordinates.long = -118.2437
+            
+            // get and display data
+            fetchData()
+            print("fetched data for LA")
+            mapView.addAnnotations(venues)
+            
+            // zoom in on map
+            let zoomHere = CLLocationCoordinate2D(latitude: getCoordinates.lat, longitude: getCoordinates.long) // location to zoom in on
+            let span = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
+            let region = MKCoordinateRegion(center: zoomHere, span: span)
+            mapView.setRegion(region, animated: false)
+        }
     }
 
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        print("loc enabled at update? \(CLLocationManager.authorizationStatus() == .authorizedWhenInUse)")
+
         if let location = locations.first {
+            // zoom in to location on map
             let span = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
             let region = MKCoordinateRegion(center: location.coordinate, span: span)
             mapView.setRegion(region, animated: false)
@@ -87,12 +109,16 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         guard let locValue: CLLocationCoordinate2D = manager.location?.coordinate else { return }
         //print("locations = \(locValue.latitude) \(locValue.longitude)")
         //print(locValue)
-        getCoordinates.lat = locValue.latitude
-        getCoordinates.long = locValue.longitude
-        fetchData()
-        print("fetched data")
-        mapView.addAnnotations(venues)
         
+        // saving user location & getting nearby vaccine center data
+        if CLLocationManager.locationServicesEnabled() {
+            print("loc enabled, getting lat & long")
+            getCoordinates.lat = locValue.latitude
+            getCoordinates.long = locValue.longitude
+            fetchData()
+            print("fetched data")
+            mapView.addAnnotations(venues)
+        }
     }
     
 

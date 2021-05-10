@@ -57,7 +57,13 @@ class VaccineViewController: UIViewController, UITableViewDataSource, UITabBarDe
         self.searchBar.delegate = self
         fetchData()
         
-        // Do any additional setup after loading the view.
+        // if there's not enough data to load
+        if venues.count < 10 {
+            numberOfLocations = venues.count
+        }
+        
+        searchBar.placeholder = "Search vaccine centers"
+        self.navigationController?.navigationBar.topItem?.titleView = searchBar
     }
     
     
@@ -95,9 +101,15 @@ class VaccineViewController: UIViewController, UITableViewDataSource, UITabBarDe
     }
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath){
-     
-        if indexPath.row + 1 == numberOfLocations {
-            numberOfLocations = numberOfLocations + 10
+        
+        // to load more places if at end of list
+        if (indexPath.row + 1 == numberOfLocations && venues.count > numberOfLocations) {
+            
+            if (venues.count >= numberOfLocations + 10 ) {
+                numberOfLocations = numberOfLocations + 10
+            } else {
+                numberOfLocations = venues.count
+            }
             self.viewDidAppear(true)
         }
   
