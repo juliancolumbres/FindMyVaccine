@@ -33,11 +33,13 @@ Find my vaccine is an app that allows users to browse for Covid-19 vaccination l
 * [x] Having a "Detail Screen"
 * [x] Displaying a list of locations
 * [x] Providing an url to location's website
+* [x] Set default location for users who deny location access
 
 **Optional Nice-to-have Stories**
 
 * [ ] Find location within a specific range (zipcode, current locations, etc...)
-* [ ] Provide GPS for user to navigate to vaccine locations
+* [x] Provide GPS for user to navigate to vaccine locations
+* [x] User can see a list of as many nearby locations as possible with an infinite scroll   
 
 ### 2. Screen Archetypes
    
