@@ -8,6 +8,7 @@
 3. [Milestone 1: Creating User Interface](#Milestone-1-Creating-User-Interface)
 4. [Milestone 2: Displaying Data](#Milestone-2-Displaying-Data)
 5. [Milestone 3: Viewing Website](#Milestone-3-Viewing-Website)
+6. [Milestone 4: Directions and Location Access Denial](#Milestone-4-Directions-and-Location-Access-Denial)
 
 
 
@@ -141,6 +142,17 @@ Base URL - https://www.vaccinespotter.org/api/v0/states/CA.json
 
 <img src='https://i.imgur.com/wTHgeYo.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
 
+## Milestone 4: Directions and Location Access Denial
+
+### Getting directions with Apple maps
+
+<img src='https://i.imgur.com/5nOv0oj.gif' title='Video Walkthrough' width='250' alt='Getting directions with Apple maps' />
+
+
+
+### Set default location to L.A. if user denies location access 
+
+![](https://i.imgur.com/wexhJUY.gif)
 
 
 
