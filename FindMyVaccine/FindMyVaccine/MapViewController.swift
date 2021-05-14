@@ -151,6 +151,7 @@ extension MapViewController : MKMapViewDelegate
                 view.calloutOffset = CGPoint(x: -5, y: 5)
                 view.rightCalloutAccessoryView = UIButton(type: .detailDisclosure) as UIView
             }
+            view.pinTintColor = UIColor.systemTeal
             return view
         }
         return nil

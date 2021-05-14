@@ -62,8 +62,13 @@ class VaccineViewController: UIViewController, UITableViewDataSource, UITabBarDe
             numberOfLocations = venues.count
         }
         
+/*
         searchBar.placeholder = "Search vaccine centers"
         self.navigationController?.navigationBar.topItem?.titleView = searchBar
+        
+        // dismiss keyboard
+        tableView.keyboardDismissMode = .interactive
+ */
     }
     
     
