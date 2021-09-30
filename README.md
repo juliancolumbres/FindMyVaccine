@@ -14,7 +14,7 @@
 
 ## Overview
 ### Description
-Find my vaccine is an app that allows users to browse for COVID-19 vaccination locations. With the app, users can look for a Covid vaccination location near their current location. 
+Find my vaccine is an app that allows users to browse for COVID-19 vaccination locations. With the app, users can look for vaccination sites near their current location. 
 
 ### Overview
 - **Category:** Health
@@ -22,7 +22,7 @@ Find my vaccine is an app that allows users to browse for COVID-19 vaccination l
 - **Story:** Users find COVID-19 vaccination locations, and use GPS to navigate to that locations.
 - **Market:** All individuals who are looking to get a vaccine or are seeking more info.
 - **Habit:** Users would need this when they are going through the vaccination process.
-- **Scope:** Shown locations depend on availability of vaccines at each site. This app can find nearby locations or sites near any specified zipcode.
+- **Scope:** Locations shown depend on availability of vaccines at each site. This app can find nearby locations or sites near any specified zipcode.
 
 ## Product Spec
 
@@ -84,20 +84,11 @@ Figma: https://www.figma.com/file/atYJ0tVcHPd97EGZril6MF/find-my-vaccine-wirefra
 
 ### Networking
 
-#### We are only using Existing API to get data. Please see the next section.
-
-#### OPTIONAL: List endpoints if using existing API 
+#### We are accessing existing API to get data.
 
 - Vaccine API
 
 Base URL - https://www.vaccinespotter.org/api/v0/states/CA.json
-
-
-| HTTP Verb      | Endpoint     | Description |
-| ------------- | -------- | ------------|
-| GET |  /FeatureCollection/1/Features | gets all vaccination sites (known as features) and their information |
-| GET | /Featurecollection/1/Features?appointments_available=true  | gets all vaccination sites where appointments are available |
-
 
 ## Milestone 1: Creating User Interface
 
