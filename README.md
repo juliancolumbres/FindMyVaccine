@@ -14,15 +14,14 @@
 
 ## Overview
 ### Description
-Find my vaccine is an app that allows users to browse for Covid-19 vaccination locations. With the app, users can look for a Covid vaccination location near their living areas. 
+Find my vaccine is an app that allows users to browse for COVID-19 vaccination locations. With the app, users can look for a Covid vaccination location near their current location. 
 
-### App Evaluation
-[Evaluation of your app across the following attributes]
-- **Category:** Health app
-- **Mobile:** This app will be developed for IOS devices' users 
-- **Story:** Users find Covid-19 vaccination locations, and use GPS to navigate to that locations.
-- **Market:** Any eligible individuals who are looking to get a vaccine.
-- **Habit:** Users would need this when they are going through the vaccination process
+### Overview
+- **Category:** Health
+- **Mobile:** This app is developed to run on iOS devices.
+- **Story:** Users find COVID-19 vaccination locations, and use GPS to navigate to that locations.
+- **Market:** All individuals who are looking to get a vaccine or are seeking more info.
+- **Habit:** Users would need this when they are going through the vaccination process.
 - **Scope:** Shown locations depend on availability of vaccines at each site. This app can find nearby locations or sites near any specified zipcode.
 
 ## Product Spec
