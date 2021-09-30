@@ -26,19 +26,14 @@ Find my vaccine is an app that allows users to browse for COVID-19 vaccination l
 
 ## Product Spec
 
-### 1. User Stories (Required and Optional)
+### 1. User Stories
 
-**Required Must-have Stories**
-* [x] Having a "Detail Screen"
-* [x] Displaying a list of locations
-* [x] Providing an url to location's website
-* [x] Set default location for users who deny location access
-
-**Optional Nice-to-have Stories**
-
-* [ ] Find location within a specific range (zipcode, current locations, etc...)
-* [x] Provide GPS for user to navigate to vaccine locations
-* [x] User can see a list of as many nearby locations as possible with an infinite scroll   
+* [x] Animated launch screen to detail screen
+* [x] Displaying a list of locations through table view
+* [x] Providing access to location's website within the app
+* [x] Setiting default location for users who deny location access
+* [x] Providing GPS directions for user to navigate to vaccine locations
+* [x] Users can see a list of all nearby locations through infinite scroll   
 
 ### 2. Screen Archetypes
    
@@ -79,8 +74,9 @@ Figma: https://www.figma.com/file/atYJ0tVcHPd97EGZril6MF/find-my-vaccine-wirefra
 | ------------- | -------- | ------------|
 | name  | String  | Name of the location |
 | address | String | Address of vaccine site |
-| vaccineType| String  | Types of vaccine offered |
+| vaccineTypes | String Array | Types of vaccine offered |
 | vaccineStatus | boolean | Whether vaccine is available |
+| vaccineUrl | String | Carrier website URL |
 
 ### Networking
 
