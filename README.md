@@ -14,7 +14,7 @@
 
 ## Overview
 ### Description
-Find my vaccine is an app that allows users to browse for COVID-19 vaccination locations. Within the app, users can look for vaccination sites near their current location. 
+FindMyVaccine is an app that allows users to browse for COVID-19 vaccination locations. Within the app, users can look for vaccination sites near their current location. 
 
 ### Overview
 - **Category:** Health
